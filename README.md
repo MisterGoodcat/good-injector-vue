@@ -70,3 +70,13 @@ For all supported DI features, visit [good-injector](https://github.com/MisterGo
 * Please note that the `InjectArguments` decorator is a decorator factory. Don't forget the parenthesis, i.e. `InjectArguments()` (in newer TypeScript versions, compiler will complain if you forget this).
 * Please note that the `SupportsInjection` decorator of _good-injector_ does not work _directly on Vue.js components_, because they are not instantiated by the container. The decorator fully works on all your dependencies though, for example the `Repository` type in the sample above.
 * Make sure that you don't inject costly to construct transient dependencies into potentially frequently called life cycle hooks like _updated_.
+
+## Build yourself
+
+Make sure you have ts-node globally installed for executing the unit tests.
+
+* Clone repo
+* `yarn`
+* `npm run build:dev`
+
+Look at the available scripts to see what's available to build, lint, test and watch.
