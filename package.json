@@ -1,6 +1,6 @@
 {
   "name": "good-injector-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An adapter for Vue.js to integrate with good-injector, a dependency injection framework for TypeScript.",
   "keywords": [
     "Dependency Injection",
