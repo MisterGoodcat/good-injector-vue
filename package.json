@@ -2,6 +2,22 @@
   "name": "good-injector-vue",
   "version": "0.0.1",
   "description": "An adapter for Vue.js to integrate with good-injector, a dependency injection framework for TypeScript.",
+  "keywords": [
+    "Dependency Injection",
+    "IoC",
+    "TypeScript",
+    "Vue",
+    "Vue.js",
+    "Vuejs"
+  ],
+  "homepage": "https://github.com/MisterGoodcat/good-injector-vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MisterGoodcat/good-injector-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MisterGoodcat/good-injector-vue/issues"
+  },
   "main": "dist/Index.js",
   "types": "dist/Index.d.ts",
   "scripts": {
