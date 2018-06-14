@@ -68,3 +68,10 @@ function wrapLifeCycleHook(componentOptions: ComponentOptions<_Vue>, hookName: s
         currentComponentHooks[currentComponentHooks.length - 1] = replacementHook;
     }
 }
+
+declare module "vue/types/vue" {
+    // tslint:disable-next-line:interface-name
+    interface Vue {
+        readonly $container: Container;
+    }
+}
